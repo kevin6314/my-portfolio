@@ -141,7 +141,7 @@
     width: 50%;
     margin-bottom: min(5px, 4%);
     border-radius: 8px;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.2s ease-in-out;
   }
   
   .work-experience-card:hover,
@@ -211,4 +211,8 @@
   .random-work-experience {
       flex-direction: column;
     }
+    .work-experience-card {
+      width: 100%;
+    }
   }
+
