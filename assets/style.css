@@ -211,8 +211,17 @@
   .random-work-experience {
       flex-direction: column;
     }
-    .work-experience-card {
+  
+  .work-experience-card {
       width: 100%;
     }
+
+  header {
+    height: 500px;
+  }
+
+  h3{
+    overflow-wrap:anywhere;
+  }
   }
 
